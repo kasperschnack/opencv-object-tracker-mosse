@@ -46,7 +46,7 @@ while True:
                 cv2.putText(
                     frame,
                     text,
-                    (10, H - ((i * 20) + 20)),
+                    (10, height - ((i * 20) + 20)),
                     cv2.FONT_HERSHEY_SIMPLEX,
                     0.6,
                     (0, 0, 255),
